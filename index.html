@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11110f">
+    <meta
+      name="description"
+      content="The portfolio of Inteshar Alam — software projects across systems, mobile apps, and thoughtful interface design."
+    >
+    <title>Inteshar Alam — Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Inteshar Alam, home">
+        <span class="wordmark-mark">i.</span>
+        <span>INTESHAR ALAM</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a class="nav-link" href="https://github.com/INTE5HAR" target="_blank" rel="noreferrer">
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero page-width" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER <span class="eyebrow-divider">/</span> BUILDING IN PUBLIC</p>
+          <h1 id="hero-title">Ideas into<br><span class="accent-text">working software.</span></h1>
+          <p class="hero-description">
+            I’m Inteshar — I build practical tools, explore how things work,
+            and care about the details that make software feel good to use.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://github.com/INTE5HAR" target="_blank" rel="noreferrer">
+              Find me on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line" aria-hidden="true"></span>
+            <p>Curious by default.<br>Always learning by building.</p>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-caption"><span>FIG. 01</span><span>THOUGHT → FORM</span></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="art-core"><span>i</span><i></i></div>
+          <span class="art-coordinate coordinate-one">IDEA_001</span>
+          <span class="art-coordinate coordinate-two">FORM_002</span>
+          <span class="art-cross cross-one">+</span>
+          <span class="art-cross cross-two">+</span>
+          <div class="art-footer"><span>DESIGN WITH INTENT</span><span>MAKE IT REAL</span></div>
+        </div>
+        <div class="hero-index"><span>01</span><span class="index-rule"></span><span>04</span></div>
+      </section>
+
+      <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading page-width">
+          <div>
+            <p class="eyebrow section-kicker">SELECTED BUILDS <span class="eyebrow-divider">/</span> FROM THE WORKSHOP</p>
+            <h2 id="work-title">A little bit of<br><span class="muted-heading">everything.</span></h2>
+          </div>
+          <p class="section-intro">
+            From the logic behind a calculator to the systems that move a bus card.
+            Each project is a chance to learn something new and make it useful.
+          </p>
+        </div>
+
+        <div class="project-grid page-width">
+          <article class="project-card project-featured">
+            <a class="project-visual visual-calculator" href="https://github.com/INTE5HAR/Kalculator" target="_blank" rel="noreferrer" aria-label="View Kalculator on GitHub">
+              <span class="visual-label">01 / MOBILE</span>
+              <div class="calculator-ui">
+                <span class="calc-kicker">KALCULATOR</span>
+                <span class="calc-expression">128 ÷ 4 + 16</span>
+                <span class="calc-result">48<span class="calc-cursor"></span></span>
+                <div class="calc-keys"><i>AC</i><i>±</i><i>%</i><i class="calc-op">÷</i><i>7</i><i>8</i><i>9</i><i class="calc-op">×</i><i>4</i><i>5</i><i>6</i><i class="calc-op">−</i><i>1</i><i>2</i><i>3</i><i class="calc-op">+</i><i class="calc-zero">0</i><i>.</i><i class="calc-equals">=</i></div>
+              </div>
+              <span class="visual-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Kalculator</h3><p>A precise, tactile calculator for Android.</p></div>
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-meta"><span>KOTLIN</span><span>ANDROID</span><span>BIGDECIMAL</span></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual visual-turing" href="https://github.com/INTE5HAR/turing-machine-simulator" target="_blank" rel="noreferrer" aria-label="View Turing Machine Simulator on GitHub">
+              <span class="visual-label">02 / SYSTEMS</span>
+              <div class="turing-ui">
+                <div class="state-row"><span class="state state-active">q₀</span><span class="arrow-line">→</span><span class="state">q₁</span><span class="arrow-line">→</span><span class="state state-final">qf</span></div>
+                <div class="tape"><i>0</i><i>1</i><i class="tape-head">1<span>▲</span></i><i>0</i><i>□</i></div>
+                <p class="mono-caption">TAPE POSITION <b>02</b><span>RUNNING</span></p>
+              </div>
+              <span class="visual-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Turing Machine</h3><p>A step-by-step model of computation.</p></div>
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-meta"><span>JAVA</span><span>COMPUTER SCIENCE</span></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual visual-jatri" href="https://github.com/INTE5HAR/SmartJatri" target="_blank" rel="noreferrer" aria-label="View SmartJatri on GitHub">
+              <span class="visual-label">03 / SYSTEMS</span>
+              <div class="transit-ui">
+                <span class="transit-label">SMARTJATRI <b>·</b> CARD SYSTEM</span>
+                <div class="transit-stations"><span>STATION 01</span><span class="route-line"><i></i><i></i><i></i><i></i></span><span>STATION 04</span></div>
+                <div class="transit-card"><span>BUS CARD</span><b>FARE PAID</b><small>TRIP RECORDED <span>✓</span></small></div>
+              </div>
+              <span class="visual-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>SmartJatri</h3><p>A digital bus card and fare management system.</p></div>
+              <span class="project-number">03</span>
+            </div>
+            <div class="project-meta"><span>C++17</span><span>DATA STRUCTURES</span></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual visual-theme" href="https://addons.mozilla.org/en-US/firefox/addon/obsidian-silver/" target="_blank" rel="noreferrer" aria-label="Get Obsidian Silver for Firefox">
+              <span class="visual-label">04 / INTERFACE</span>
+              <div class="browser-window">
+                <div class="browser-top"><i></i><i></i><i></i><span>obsidian / silver</span><b>•••</b></div>
+                <div class="browser-tabs"><span class="tab-active">New tab</span><span>Bookmarks</span><span class="tab-plus">+</span></div>
+                <div class="browser-body"><span class="browser-mark">◒</span><span>quiet by design.</span><i class="browser-search"></i></div>
+              </div>
+              <span class="visual-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Obsidian Silver</h3><p>A near-black Firefox theme with silver accents.</p></div>
+              <span class="project-number">04</span>
+            </div>
+            <div class="project-meta"><span>FIREFOX</span><span>VISUAL DESIGN</span></div>
+          </article>
+        </div>
+
+        <div class="more-work page-width">
+          <span>ALSO IN THE WORKSHOP</span>
+          <p><a href="https://github.com/INTE5HAR/Pharmacy-management-system" target="_blank" rel="noreferrer">Pharmacy Management System <span>C</span><span aria-hidden="true">↗</span></a></p>
+          <p><a href="https://github.com/INTE5HAR" target="_blank" rel="noreferrer">More projects on GitHub <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </section>
+
+      <section class="about-section page-width" id="about" aria-labelledby="about-title">
+        <div class="about-label">
+          <p class="eyebrow">A BIT ABOUT ME <span class="eyebrow-divider">/</span> 02</p>
+          <span class="about-stamp" aria-hidden="true">BUILT<br>WITH<br>INTENT<span>✳</span></span>
+        </div>
+        <div class="about-copy">
+          <h2 id="about-title">Learning the craft,<br><span class="accent-text">one project at a time.</span></h2>
+          <p>
+            I’m a developer who enjoys moving between ideas and implementation:
+            exploring computation with Java, building Android apps in Kotlin,
+            and solving practical problems with C and C++.
+          </p>
+          <p>
+            Whether it’s a small visual detail or the rules that keep a system
+            reliable, I like understanding how the pieces fit together.
+          </p>
+          <div class="toolbox">
+            <span class="toolbox-label">CURRENT TOOLBOX</span>
+            <div class="tool-tags"><span>Java</span><span>Kotlin</span><span>C++</span><span>C</span><span>Android</span><span>Git</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" aria-labelledby="contact-title">
+        <div class="contact-inner page-width">
+          <p class="eyebrow">HAVE A GOOD ONE IN MIND?</p>
+          <h2 id="contact-title">Let’s make<br><span>something real.</span></h2>
+          <a class="button button-light" href="https://github.com/INTE5HAR" target="_blank" rel="noreferrer">Say hello on GitHub <span aria-hidden="true">↗</span></a>
+          <div class="contact-decoration" aria-hidden="true"><span>i.</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark">i.</span><span>INTESHAR ALAM</span></a>
+      <span class="footer-note">DESIGNED & BUILT WITH CURIOSITY</span>
+      <a class="footer-top" href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a>
+      <span class="copyright">© 2026</span>
+    </footer>
+  </body>
+</html>
